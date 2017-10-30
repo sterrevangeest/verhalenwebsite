@@ -1,0 +1,8 @@
+nav li ul {
+    display: none;
+}
+
+ul li:hover > ul
+{
+    display:block;
+}

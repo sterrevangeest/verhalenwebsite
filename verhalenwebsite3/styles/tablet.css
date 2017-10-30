@@ -1,0 +1,418 @@
+/* tablet */
+
+@media (min-width: 768px) {
+
+    body {
+background-color: gold;
+    }
+
+main {
+        margin: 0 3rem;
+    }
+
+    /* START */
+
+    /* HEADER */
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.3125em 0.625em 0 rgba(0, 0, 0, .15);
+    height: 3.5em;
+    padding: 0.6em 3em;
+}
+
+h1 {
+    color: #00d66c;
+    margin: 0;
+}
+
+header section > input {
+    border: .0625rem solid #91a3b7;
+    font-size: 1em;
+    padding: 0.6em 1.6em;
+    /position: relative;
+    border-bottom-left-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+    width: 250em;
+}
+
+
+/*dropdown header */
+
+header nav li:first-child {
+    background-color: #ff3268;
+    Box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    padding: 0.6em 1.6em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li ul {
+    display: none;
+    list-style-type: none;
+}
+
+ul li:hover > ul {
+    display: block;
+}
+
+header nav {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header nav ul {
+    margin: 0;
+}
+
+header nav li {
+    width: 100%;
+}
+
+header nav img {
+    position: absolute;
+    width: 1.2em;
+    right: 1em;
+}
+
+header nav {
+    position: relative;
+}
+
+
+
+/*end dropdown header*/
+
+#search + button {
+    background-color: #2800a0;
+    Box-shadow: inset 0 -0.1875rem 0.0625rem #120145;
+    padding: 0.55em 1.6em;
+    border: none;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    font-size: 1em;
+}
+
+header section {
+    display: flex;
+    height: 2.5em;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 0em;
+}
+
+header {
+    background-color: #fff;
+}
+
+
+/* NAVIGATIE */
+
+main nav li {
+    border: 0.15em solid #00d66c;
+    padding: 0.4em 1.5em;
+    background-color: #fff;
+    font-size: 1em;
+    border-radius: 3em;
+    list-style-type: none;
+}
+
+main nav {
+    margin: 1em 0;
+    padding: 0;
+}
+
+main nav li:first-child {
+    background-color: #00d66c;
+    margin-right: 1em;
+}
+
+nav li:first-child a {
+    color: white;
+}
+
+main nav li:hover {
+    background-color: #00d66c;
+}
+
+nav li:hover a {
+    color: #fff;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MAIN sorteren en random */
+
+main section:first-of-type button:last-child {
+    border: 0.1em solid #dedede;
+    padding: 0.4em 2em;
+    background-color: #fff;
+    font-size: 1em;
+    border-radius: .5em;
+    list-style-type: none;
+    margin: 0;
+}
+
+main section:first-of-type button:first-child {
+    background-color: #ff3268;
+    Box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    padding: 0.6em 1.6em;
+    border: none;
+    border-radius: 3em;
+    font-size: 1em;
+    margin: 0;
+    width: 7em;
+}
+
+main section:first-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MAIN articles  */
+
+article {
+    /background-color: black;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+section article footer .save {
+    background-color: #ff3268;
+    border: none;
+    padding: 1em;
+    border-radius: 50%;
+    font-size: 0.8em;
+    margin: 0;
+    /box-shadow: inset 0 -0.1875rem 0.0625rem #d97c20;
+    width: 2.5em;
+    height: 2.5em;
+    background-image: url("../images/plus2.svg");
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section article header h2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto 0;
+    padding: 0.1em;
+    text-align: center;
+    width: 100%;
+    padding: .5em;
+}
+
+section article img {
+    border-radius: .5em;
+}
+
+section article footer {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+section article footer a {
+    background-color: #00d66c;
+    border: none;
+    padding: 0.5em .8em ;
+    border-radius: 3em;
+    font-size: 1em;
+    margin: 0;
+    color: #fff;
+}
+
+section article footer a:nth-child(4) {
+    background-color: #f28c37;
+    border: none;
+    border-radius: 3em;
+    font-size: 1em;
+    margin: 0;
+    color: #fff;
+    right: 1em;
+    margin-left: 1em;
+}
+
+
+/*
+
+bron: https://css-tricks.com/centering-css-complete-guide/
+
+*/
+
+section .article h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article {
+    position: relative;
+}
+
+.article {
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.article:hover h2 {
+    /background-color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+    /text-shadow: 0 0.4px 0.4px rgba(0, 0, 0, .5);
+}
+
+
+/* ASIDE */
+
+aside div ul {
+    padding: 0 1em;
+}
+
+aside li {
+    display: inline-block;
+    color: black;
+    font-size: 1em;
+}
+
+aside li:hover {
+    color: #00d66c;
+}
+
+.account div:first-child {
+    background-color: #2800a0;
+}
+
+.top-verhalen div:first-child {
+    background-color: #f28c37;
+}
+
+aside div:first-child {
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+    width: 100%;
+}
+
+aside div h2 {
+    color: #fff;
+    padding: 0 0.6em;
+}
+
+aside div:last-child {
+    border: .0625rem solid #91a3b7;
+    /border: solid 1px black;
+    border-top: none;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+aside {
+    margin: 1em 0;
+}
+
+aside h2 {
+    margin: 0.5em 0;
+}
+
+
+/* display grid */
+
+body > header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1.5fr;
+    grid-template-rows: 4em 2.4em 3fr 3fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+header {
+    grid-column: 1/5;
+}
+
+header section {
+    grid-column: 2 /4;
+    grid-row: 1;
+}
+
+header form {
+    grid-column: 4;
+}
+
+header h2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+header nav {
+    grid-column: 4/5;
+    grid-row: 1;
+}
+
+nav {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+aside {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+main > div {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#row-1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#row-2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#row-3 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+aside {
+    grid-column: 4;
+    grid-row: ;
+}
+
+aside:last-child {
+    grid-column: 4/4;
+    grid-row: 4;
+}
+
+
+}

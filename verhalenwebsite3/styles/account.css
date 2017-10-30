@@ -1,0 +1,229 @@
+/*
+
+
+Groen        #00d66c
+Box-shadow: inset 0 -0.1875rem 0.0625rem #1e9162
+
+Roze        #ff3268
+inset 0 -0.1875em 0.0625em #ca2b55
+
+Donker Blauw    #2800a0
+inset 0 -0.1875em 0.0625em #120145
+
+Oranje        #f28c37
+
+Champagne    #f3e5d8
+
+“Zwart”         #202020
+
+*/
+
+
+/* CSS START */
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'NexaRegular';
+    src: url('/fonts/NexaRegular/NexaRegular.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('/fonts/NexaLight/NexaLight.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('/fonts/NexaBold/NexaBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* BODY */
+
+a {
+    color: #202020;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /background-color: #f3e5d8;
+}
+
+main {
+    margin: 0 1em;
+}
+
+button a {
+    color: #fff;
+    /font-family: "NexaRegular";
+}
+
+button {
+    font-family: "NexaRegular";
+}
+
+body {
+    font-family: "NexaRegular", Arial;
+    color: #202020;
+}
+
+
+/*start*/
+
+/* header */
+
+
+
+.offcanvas-account header {
+    box-shadow: 0 0.3125em 0.625em 0 rgba(0, 0, 0, .15);
+    height: 3.25em;
+    padding: 0.5em 1em;
+     display: flex;
+    justify-content: space-between;
+
+}
+
+.offcanvas-account header section:first-child a {
+    margin: 0 3em;
+    font-size: 1.4rem;
+    margin: -.5em 1.8em;
+}
+
+
+.offcanvas-account header button {
+    background-color: black;
+    border: none;
+
+}
+
+.offcanvas-account header section:first-child {
+    background-color: #ff3268;
+    /Box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    padding: 1.5em;
+    border: none;
+    border-radius: 50%;
+    font-size: 0.8em;
+    list-style-type: none;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    background-image: url(../images/account.svg);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#triangle-down {
+    background-color: #fff;
+    width: 0;
+    height: 0;
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    border-top: 1.5em solid #f3e5d8;
+    margin: 0 3.3em;
+    padding-bottom: 0;
+
+}
+/* accounts */
+
+.offcanvas-account div nav ul {
+    list-style-type: none;
+}
+
+.offcanvas-account div:nth-of-type(1) {
+    background-color: #f3e5d8;
+    padding: 1em 0;
+}
+
+.offcanvas-account div:nth-of-type(1) button {
+    padding: 1.5em;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    list-style-type: none;
+    background-image: url(../images/account.svg);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+.offcanvas-account div:nth-of-type(1) #user-1 {
+    background-color: #ff3268;
+}
+
+.offcanvas-account div:nth-of-type(1) #user-2 {
+    background-color: #2800a0;
+}
+
+.offcanvas-account div:nth-of-type(1) #user-3 {
+    background-color: #00d66c;
+}
+
+.offcanvas-account div:nth-of-type(1) #user-4 {
+    background-color: #f28c37;
+}
+
+.offcanvas-account div:nth-of-type(1) ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.offcanvas-account div:nth-of-type(1) li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2em;
+
+}
+
+/* links */
+
+.offcanvas-account div:nth-of-type(2) ul , .offcanvas-account div:nth-of-type(3) ul {
+    padding: 0 0 .6em;
+    margin-left: 2em;
+}
+
+.offcanvas-account div:nth-of-type(2) ul {
+   border-bottom: 2px solid lightgrey;
+}
+
+.offcanvas-account div:nth-of-type(2) li a {
+    color: #00d66c;
+    font-size: 1.4em;
+}
+
+.offcanvas-account div nav li a {
+    color: black;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+/* END OFFCANVAS-ACCOUNT */
+
+
+
+.offcanvas-account {
+    background-color: beige;
+    height: 500em; ;
+}
+
+
+
+
