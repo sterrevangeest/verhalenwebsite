@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
-
+    <link rel="stylesheet" href="styles/stylesmijnverhalen.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -52,23 +52,23 @@
     <!-- search -->
         <form>
             <input type="search" id="search" name="search" placeholder="Zoeken">
-            <button>Zoek</button>
+            <button><a href="">Zoek</a></button>
         </form>
 
     <!-- accounts -->
-        <button>Account</button>
+        <button><a href="#">Account</a></button>
     </header>
+
 
 <!-- MAIN -->
     <main>
         <h2>Mijn verhalen</h2>
 
+        <div>
         <!-- sorteren, random en filteren -->
-
-            <a href="#">Random</a>
-
-            <div>
-            <a href="#">Filteren</a>
+        <button><a href="#">Random</a></button>
+        <div>
+        <a href="#">Filteren</a>
             <ul>
                 <li><a href="#">Alle verhalen</a></li>
                 <li><a href="#">Taal en dialect</a></li>
@@ -77,9 +77,8 @@
                 <li><a href="#">Muziek</a></li>
                 <li><a href="#">Overig</a></li>
             </ul>
-            </div>
-
-            <div>
+        </div>
+        <div>
             <a href="#">Sorteren</a>
             <ul>
                 <li><a href="#">Alle verhalen</a></li>
@@ -89,12 +88,10 @@
                 <li><a href="#">Muziek</a></li>
                 <li><a href="#">Overig</a></li>
             </ul>
-            </div>
-
-            <section>
-               <h3>6 verhalen</h3>
-            </section>
-            <section>
+        </div>
+        </div>
+        <h3>6 verhalen</h3>
+        <section>
                 <h3>alles downloaden</h3>
                 <div class="switch">
                       <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
@@ -150,55 +147,43 @@
             </article>
         </section>
 
+<!-- meer laden -->
+        <a class="loadmore" href="">Meer laden</a>
+        <!-- popup opgeslagen -->
 
-        <button>Meer laden</button>
+        <button class="savePopup">Opgeslagen in <a href="mijnlijst.html">Mijn verhalen</a></button>
 
         <!-- aside -->
+            <aside class="account">
+                <div>
+                    <h2>Account</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="mijnlijst.html">Mijn verhalen</a></li>
+                        <li>Laatste verhaal</li>
+                        <li>Aanbevolen</li>
+                    </ul>
+                </div>
+            </aside>
 
-        <aside class="account">
-            <div>
-                <h2>Account</h2>
-            </div>
-            <div>
-                <ul>
-                    <li>Laatste verhaal</li>
-                    <li>Mijn verhalen</li>
-                    <li>Aanbevolen</li>
-                </ul>
-            </div>
-        </aside>
+            <aside class="top-verhalen">
+                <div>
+                    <h2>Top verhalen</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Telegrafisch</li>
+                        <li>Klumperbeven</li>
+                        <li>Code</li>
+                        <li>Freudiaans</li>
+                        <li>Code</li>
+                    </ul>
+                </div>
+            </aside>
+           </main>
 
-        <aside class="top-verhalen">
-            <div>
-                <h2>Top verhalen</h2>
-            </div>
-            <div>
-                <ul>
-                    <li>Telegrafisch</li>
-                    <li>Klumperbeven</li>
-                    <li>Code</li>
-                    <li>Freudiaans</li>
-                    <li>Code</li>
-                </ul>
-            </div>
-        </aside>
-    </main>
 <!-- FOOTER -->
-
-     <footer>
-            <div>
-                <h2>Top verhalen</h2>
-            </div>
-            <div>
-                <ul>
-                    <li>Telegrafisch</li>
-                    <li>Klumperbeven</li>
-                    <li>Code</li>
-                    <li>Freudiaans</li>
-                    <li>Code</li>
-                </ul>
-            </div>
-    </footer>
 
 <!-- SCRIPT -->
 

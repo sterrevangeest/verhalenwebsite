@@ -3,7 +3,7 @@ console.log('hi')
 
     //var downloadIcon = document.querySelectorAll("section article header h2");
     var downloadIcon = document.querySelector("section article header h2");
-    var downloadSwitch = document.querySelector("main section:nth-of-type(3) label")
+    var downloadSwitch = document.querySelector("main section label")
 
     console.log(downloadIcon);
     console.log(downloadSwitch);

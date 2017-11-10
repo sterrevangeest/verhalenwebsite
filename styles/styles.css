@@ -31,9 +31,6 @@ Champagne    #f3e5d8
     font-style: normal;
 }
 
-
-
-
 /* BODY */
 
 a {
@@ -67,8 +64,6 @@ body {
     font-family: "NexaRegular", Arial;
     color: #202020;
 }
-
-
 
 
 /*mobiel*/
@@ -988,6 +983,8 @@ body {
 
 /* form */
 
+/* form.html */
+
 #form {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
@@ -1003,25 +1000,25 @@ text-align: center;
     margin-top: 1em;
 }
 
-.login {
+#form .login {
     width: 20em;
     margin: 0 auto;
     margin-top: 1em;
     margin-bottom: 30em;
 }
 
-.login  {
+#form .login  {
     background-color: white;
     padding: 1em;
     border-radius: 1.5em;
 
 }
 
-fieldset {
+#form fieldset {
     border: none;
 }
 
-legend {
+#form legend {
     font-size: 2em;
     font-weight: 900;
     color: #00d66c;
@@ -1029,20 +1026,20 @@ legend {
 
 }
 
-label {
+#form label {
     display: block;
     font-weight: 900;
     margin: .3em 0;
 }
 
-input {
+#form input {
     width: 100%;
     border-radius: .5rem;
     border: .0625rem solid #91a3b7;
     font-size: 1.2rem;
 }
 
-.login button {
+#form .login button {
     background-color: #ff3268;
     background-image: none;
     width: 8rem;
@@ -1055,10 +1052,9 @@ input {
     margin: 1.4em 0;
 }
 
-form:valid {
-    border:  #00d66c solid 3px;
+#form form:valid {
+    border: #00d66c solid 3px;
 }
-
 
 
 
